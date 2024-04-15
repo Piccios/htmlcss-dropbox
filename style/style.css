@@ -11,7 +11,8 @@ ul > li{
 
 body{
     text-align: start;
-    min-width: 2180px;
+    min-width: 1350px;
+    max-width: auto;
 }
 
 header *{
@@ -29,6 +30,8 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 background-color: white;
+font-size: 1.3rem;
+color: #575e63;
 }
 
 .flex{
@@ -54,13 +57,17 @@ section.links > ul{
     gap: 3rem;
 }
 
-.buttons > button{
+button{
     padding: 0 1rem;
     border: none;
+    border-color: none;
+    font-size: 1.3rem;
+
 }
 
 button.white-button{
     background-color: transparent;
+    color: #575e63;
 }
 
 button.blue-button{
@@ -72,11 +79,41 @@ main{
     margin-top: 120px;
 }
 
-section.jumbotron{
+main section.jumbotron{
     background-color: #b4d0e7;
     height: 1105px;
+    padding: 5rem 10rem;
 }
 
+main section.jumbotron h1{
+    font-size: 4rem
+}
+
+main section.jumbotron p{
+    font-size: 1.3rem;
+    color: #575e63;
+}
+
+div.jumbo-content{
+    padding: 1.5rem;
+}
+
+.column{
+    padding: 2rem;
+}
+
+div.column-small{
+    width: 40%;
+}
+
+div.cloumn-big{
+    width: 60%
+}
+
+.fa-arrow-down{
+    font-size: 3.5rem;
+    margin-top: 300px;
+}
 
 
 main *{
