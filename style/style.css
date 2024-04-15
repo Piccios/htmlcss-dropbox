@@ -58,6 +58,7 @@ button{
     border: none;
     border-color: none;
     font-size: 1.3rem;
+    cursor: pointer;
 
 }
 
@@ -168,21 +169,25 @@ p.price{
     font-weight: bold;
 }
 
-div.features{
-    margin-top: 1rem;
-}
-
-div.features p{
+div.features p,h4{
     padding: 1rem 2rem;
 }
+
 p.grey{
     color: #575e63;
 }
 
 .tryal{
-    margin: 1rem;
-    padding: 1rem 1.5rem
+    margin: 1rem 0.5rem;
+    padding: 1rem 1.7rem
 }
+
+hr.short{
+    width: 60px;
+    border: solid 0.5px grey;
+    margin: 3rem 2rem
+}
+
 
 
 
