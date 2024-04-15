@@ -15,10 +15,6 @@ body{
     height: auto;
 }
 
-header *{
-    border: solid tomato 2px;
-}
-
 header{
 position: fixed;
 top: 0;
@@ -137,8 +133,8 @@ section.central{
 
 article.plan{
     border: solid grey 1px;
-    width: 280px;
-    height: 280px;
+    width: 400px;
+    height: 1000px;
     margin-top: 5rem;
 }
 
@@ -146,6 +142,12 @@ div.type{
     border: solid rgb(200, 200, 200) 1px;
     justify-content: center;
     padding: 1rem;
+}
+
+section.product{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 section.product h3{
@@ -165,6 +167,24 @@ div.plan-info *{
 p.price{
     font-weight: bold;
 }
+
+div.features{
+    margin-top: 1rem;
+}
+
+div.features p{
+    padding: 1rem 2rem;
+}
+p.grey{
+    color: #575e63;
+}
+
+.tryal{
+    margin: 1rem;
+    padding: 1rem 1.5rem
+}
+
+
 
 
 
