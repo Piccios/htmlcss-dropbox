@@ -12,7 +12,7 @@ ul > li{
 body{
     text-align: start;
     min-width: 1350px;
-    max-width: auto;
+    height: auto;
 }
 
 header *{
@@ -86,7 +86,7 @@ main section.jumbotron{
 }
 
 main section.jumbotron h1{
-    font-size: 4rem
+    font-size: 4rem;
 }
 
 main section.jumbotron p{
@@ -115,9 +115,12 @@ div.cloumn-big{
     margin-top: 300px;
 }
 
-
 main *{
     border: solid tomato 2px;
+}
+
+section.business-plan{
+    margin-top: 250px;
 }
 
 
