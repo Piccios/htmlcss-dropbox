@@ -114,13 +114,61 @@ div.cloumn-big{
     margin-top: 300px;
 }
 
-main *{
+/* main *{
     border: solid tomato 2px;
+} */
+
+main h2{
+    font-size: 3rem;
+    padding-bottom: 3rem ;
 }
 
 section.business-plan{
-    margin-top: 250px;
+    margin-top: 180px;
 }
+
+section.central{
+    padding: 0 15rem;
+}
+
+/* input.input{
+    padding: 3rem;
+} */
+
+article.plan{
+    border: solid grey 1px;
+    width: 280px;
+    height: 280px;
+    margin-top: 5rem;
+}
+
+div.type{
+    border: solid rgb(200, 200, 200) 1px;
+    justify-content: center;
+    padding: 1rem;
+}
+
+section.product h3{
+    font-size: 1.5rem;
+
+}
+
+div.plan-info{
+    flex-direction: column;
+    padding: 1.5rem;
+}
+
+div.plan-info *{
+    margin-top: 1rem;
+}
+
+p.price{
+    font-weight: bold;
+}
+
+
+
+
 
 
 
