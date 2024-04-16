@@ -194,7 +194,7 @@ p.grey{
 
 hr{
     width: 100%;
-    border: solid 0.5px grey;
+    border: solid 0.5px rgb(189, 189, 189);
 }
 
 hr.short{
