@@ -84,6 +84,15 @@ main{
     margin-top: 120px;
 }
 
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 8rem;
+    padding: 5rem 10rem;
+    height: 450px;
+    width: 100%;
+}
+
 main section.jumbotron{
     background-color: #b4d0e7;
     padding: 5rem 10rem;
