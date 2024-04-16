@@ -235,9 +235,6 @@ section.link{
     margin-bottom: 10rem;
 }
 
-/* section.partners{
-    margin-top: 10rem;
-} */
 
 div.box{
     border: solid tomato 2px;
@@ -248,10 +245,32 @@ div.box{
     background-color: #0061ff;
 }
 
-div.small-box{
+#box-1{
+    background-color: #575e63;
     width: 50%;
     height: 50%;
-    border: solid tomato 1px;
+    float: left;
+}
+
+#box-2{
+    background-color: #b4d0e7;
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+#box-3{
+    background-color: aliceblue;
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+#box-4{
+    background-color: aqua;
+    width: 50%;
+    height: 50%;
+    float: left;
 }
 
 
