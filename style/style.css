@@ -9,6 +9,9 @@ ul > li{
     list-style-type: none;
 }
 
+a{
+    color: blue;
+}
 body{
     text-align: start;
     min-width: 1350px;
@@ -129,8 +132,9 @@ section.business-plan{
     margin-top: 180px;
 }
 
-section.central{
+.central{
     padding: 0 15rem;
+    margin-top: 3rem;
 }
 
 /* input.input{
@@ -212,13 +216,18 @@ section.faster{
 
 section.small-box{
     max-width: 300px;
-    margin: 1.5rem;
+    margin: 1.5rem 2rem 1.5rem 0;
 
 }
 
 section.small-box *{
     padding: 1rem;
     border: solid tomato 1px;
+}
+
+section.users{
+    margin-top: 10rem;
+    width: 80%;
 }
 
 
