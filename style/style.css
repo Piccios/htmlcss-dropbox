@@ -201,6 +201,11 @@ article.team{
     margin-top: 5rem;
 }
 
+section.partner{
+    display: flex;
+    margin: 8rem auto;
+    justify-content: center;
+}
 
 
 
