@@ -207,6 +207,24 @@ section.partner{
     justify-content: center;
 }
 
+section.faster{
+    margin-top: 1rem;
+}
+
+section.small-box{
+    max-width: 300px;
+    margin: 1.5rem;
+
+}
+
+
+
+section.small-box *{
+    padding: 1rem;
+    border: solid tomato 1px;
+}
+
+
 
 
 
