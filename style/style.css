@@ -133,7 +133,7 @@ section.business-plan{
 }
 
 .central{
-    padding: 0 15rem;
+    padding: 0 25rem;
     margin-top: 3rem;
 
 }
@@ -190,6 +190,11 @@ p.grey{
 .trial{
     margin: 1rem 0.5rem;
     padding: 1rem 1.7rem
+}
+
+hr{
+    width: 100%;
+    border: solid 0.5px grey;
 }
 
 hr.short{
@@ -293,10 +298,15 @@ section.try-it{
 
 section.try-it h2{
     color: #5e042d;
-    padding: 2rem;
+    font-size: 2rem;
+    /* padding: 2rem; */
 }
 
-
+div.question{
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
 
 
 
