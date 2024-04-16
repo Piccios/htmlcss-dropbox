@@ -135,6 +135,7 @@ section.business-plan{
 .central{
     padding: 0 15rem;
     margin-top: 3rem;
+
 }
 
 /* input.input{
@@ -228,6 +229,29 @@ section.small-box *{
 section.users{
     margin-top: 10rem;
     width: 80%;
+}
+
+section.link{
+    margin-bottom: 10rem;
+}
+
+/* section.partners{
+    margin-top: 10rem;
+} */
+
+div.box{
+    border: solid tomato 2px;
+    height: 450px;
+    width: 450px;
+    max-height: 450px;
+    max-width: 450px;
+    background-color: #0061ff;
+}
+
+div.small-box{
+    width: 50%;
+    height: 50%;
+    border: solid tomato 1px;
 }
 
 
