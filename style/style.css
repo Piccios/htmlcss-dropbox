@@ -121,7 +121,7 @@ div.cloumn-big{
 } */
 
 main h2{
-    font-size: 3rem;
+    font-size: 2.5rem;
     padding-bottom: 3rem ;
 }
 
@@ -158,7 +158,6 @@ section.product{
 
 h3{
     font-size: 1.5rem;
-
 }
 
 div.plan-info{
@@ -217,12 +216,11 @@ section.small-box{
 
 }
 
-
-
 section.small-box *{
     padding: 1rem;
     border: solid tomato 1px;
 }
+
 
 
 
