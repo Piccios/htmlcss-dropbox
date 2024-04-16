@@ -235,6 +235,10 @@ section.link{
     margin-bottom: 10rem;
 }
 
+section.partners{
+    width: 100%;
+}
+
 
 div.box{
     border: solid tomato 2px;
@@ -278,6 +282,20 @@ div.designit{
     width: 45%;
     height: 450px;
 }
+
+section.try-it{
+    background-color: #b4d0e7;
+    height: 300px;
+    margin-top: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+section.try-it h2{
+    color: #5e042d;
+    padding: 2rem;
+}
+
 
 
 
