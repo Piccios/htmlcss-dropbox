@@ -178,7 +178,7 @@ input{
 article.plan{
     border: solid grey 1px;
     width: calc(30% - 0.5rem);
-    height: 1050px;
+    height: 1100px;
     margin-top: 4rem;
 }
 
@@ -197,6 +197,10 @@ div.type{
     padding: 0.5rem;
 }
 
+i.fa-building{
+    margin-top: 0.2rem;
+}
+
 section.product{
     display: flex;
     flex-direction: row;
@@ -210,6 +214,7 @@ h3{
 div.plan-info{
     flex-direction: column;
     margin: 1rem 2rem;
+    width: 60%;
 }
 
 div.plan-info *{
@@ -219,6 +224,7 @@ div.plan-info *{
 p.price{
     font-weight: bold;
     font-size: 0.8rem;
+    margin-bottom: 2.5rem;
 }
 
 div.features i{
@@ -235,13 +241,12 @@ p.grey{
 
 .trial{
     margin: 1.5rem 3rem 1rem 3rem;
-    padding: 0.7rem 2rem
+    padding: 0.7rem 2rem;
 }
 
 button.contact{
     margin: 1.3rem 3rem 1rem 3rem;
     padding: 0.7rem 5rem
-
 }
 
 hr{
@@ -262,29 +267,46 @@ i.fa-check{
 article.team{
     border: solid grey 1px;
     width: 100%;
-    height: 100%;
+    height: 250px;
     margin-top: 5rem;
 }
 
+div.trial button{
+    margin: 0 0 0 8rem;
+}
+
+img.partner{
+    width: 75%;
+}
+
 section.partner{
-    display: flex;
     margin: 8rem auto;
-    justify-content: center;
+}
+
+div.partner{
+    margin-top: 3rem;
+}
+
+div.partner *{
+    margin: 1rem;
+}
+
+button.partner{
+    background-color: white;
+    border: solid grey 2px;
 }
 
 section.faster{
     margin-top: 1rem;
 }
 
+section.faster p{
+    margin-top: 2rem;
+}
+
 section.small-box{
     max-width: 300px;
     margin: 1.5rem 2rem 1.5rem 0;
-
-}
-
-section.small-box *{
-    padding: 1rem;
-    border: solid tomato 1px;
 }
 
 section.users{
@@ -309,6 +331,7 @@ div.box{
     max-width: 450px;
     background-color: #0061ff;
 }
+
 
 #box-1{
     background-color: #575e63;
