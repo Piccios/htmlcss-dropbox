@@ -78,7 +78,7 @@ button{
     padding: .5rem 1rem;
     border: none;
     border-color: none;
-    /* font-size: 1rem; */
+    font-size: 1rem;
     cursor: pointer;
 }
 
@@ -104,7 +104,10 @@ main{
     padding: 5rem 15rem 0 15rem;
 }
 
-section.jumbotron div.column-small *{
+section.jumbotron div.column-small p{
+    margin: 0 0 1.5rem 0;
+}
+section.jumbotron div.column-small button{
     margin: 0 0 1.5rem 0;
 }
 
@@ -114,7 +117,7 @@ section.jumbotron img{
 
 main section.jumbotron{
     background-color: #b4d0e7;
-    height: 850px;
+    height: 830px;
 }
 
 main section.jumbotron h1{
@@ -137,13 +140,13 @@ div.cloumn-big{
 }
 
 .fa-arrow-down{
-    font-size: 3.5rem;
-    margin-top: 250px;
+    font-size: 3rem;
+    margin-top: 180px;
 }
 
-main *{
+/* main *{
     border: solid tomato 2px;
-}
+} */
 
 main h2{
     font-size: 2.5rem;
