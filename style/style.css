@@ -38,13 +38,21 @@ font-size: 1rem;
 color: #575e63;
 }
 
+header a{
+    text-decoration: none;
+    color: #575e63;
+}
+
+img{
+    width: 100%;
+}
+
 .flex{
     display: flex;
 }
 
 .flex-row{
     flex-direction: row;
-
 }
 
 section.links > ul{
@@ -61,18 +69,21 @@ section.links > ul{
 
 .left{
     position: fixed;
-    left: 0;
+    left: 50px;
     margin-left: 100px;
     gap: 3rem;
 }
 
 button{
-    padding: 0 1rem;
+    padding: .5rem 1rem;
     border: none;
     border-color: none;
-    font-size: 1.3rem;
+    /* font-size: 1rem; */
     cursor: pointer;
+}
 
+header button{
+    margin: 0;
 }
 
 button.white-button{
@@ -91,37 +102,38 @@ main{
 
 .jumbotron{
     padding: 5rem 15rem 0 15rem;
+}
 
+section.jumbotron div.column-small *{
+    margin: 0 0 1.5rem 0;
+}
+
+section.jumbotron img{
+    padding: 0.5rem 0 0 0;
 }
 
 main section.jumbotron{
     background-color: #b4d0e7;
-
+    height: 850px;
 }
 
 main section.jumbotron h1{
-    font-size: 4rem;
+    font-size: 5rem;
+    font-weight: 900;
+    margin-bottom: 1.5rem;
 }
 
 main section.jumbotron p{
-    font-size: 1.3rem;
-    color: #575e63;
-}
-
-div.jumbo-content{
-    padding: 0;
-}
-
-.column{
-    padding: 1rem;
+    font-size: 1rem;
+    color: #3c4042;
 }
 
 div.column-small{
-    width: 40%;
+    width: 45%;
 }
 
 div.cloumn-big{
-    width: 60%
+    width: 55%
 }
 
 .fa-arrow-down{
@@ -129,9 +141,9 @@ div.cloumn-big{
     margin-top: 250px;
 }
 
-/* main *{
+main *{
     border: solid tomato 2px;
-} */
+}
 
 main h2{
     font-size: 2.5rem;
@@ -329,10 +341,10 @@ footer{
 }
 
 footer.jumbotron{
-    justify-content: column;
+
 }
 
-footer > div.flex{
+footer div{
     flex-direction: column;
 }
 
@@ -341,9 +353,6 @@ footer li{
     font-size: .8rem;
 }
 
-footer section.lenguage{
-
-}
 
 
 
