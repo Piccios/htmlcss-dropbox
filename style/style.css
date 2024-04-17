@@ -78,7 +78,7 @@ button{
     padding: .5rem 1rem;
     border: none;
     border-color: none;
-    font-size: 1rem;
+    font-size: 0.9rem;
     cursor: pointer;
 }
 
@@ -157,10 +157,18 @@ section.business-plan{
     margin-top: 180px;
 }
 
-.central{
-    padding: 0 20rem;
-    margin-top: 3rem;
+input{
+    padding: 0.5rem 1rem;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+}
 
+.input{
+    margin-right: 5rem;
+}
+.central{
+    padding: 0 25rem;
+    margin-top: 3rem;
 }
 
 /* input.input{
@@ -169,15 +177,24 @@ section.business-plan{
 
 article.plan{
     border: solid grey 1px;
-    width: 400px;
-    height: 1000px;
-    margin-top: 5rem;
+    width: calc(30% - 0.5rem);
+    height: 1050px;
+    margin-top: 4rem;
+}
+
+i{
+    text-align: center;
+}
+
+div.type p{
+    text-align: center;
+    margin: 0 0 0 0.3rem;
 }
 
 div.type{
-    border: solid rgb(200, 200, 200) 1px;
+    border: solid rgb(202, 202, 202) 1px;
     justify-content: center;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 section.product{
@@ -192,7 +209,7 @@ h3{
 
 div.plan-info{
     flex-direction: column;
-    padding: 1.5rem;
+    margin: 1rem 2rem;
 }
 
 div.plan-info *{
@@ -201,20 +218,30 @@ div.plan-info *{
 
 p.price{
     font-weight: bold;
+    font-size: 0.8rem;
 }
 
-
+div.features i{
+    padding-right: .5rem;
+}
 div.features p,h4{
     padding: 1rem 2rem;
 }
 
 p.grey{
     color: #575e63;
+    font-size: 0.8rem;
 }
 
 .trial{
-    margin: 1rem 0.5rem;
-    padding: 1rem 1.7rem
+    margin: 1.5rem 3rem 1rem 3rem;
+    padding: 0.7rem 2rem
+}
+
+button.contact{
+    margin: 1.3rem 3rem 1rem 3rem;
+    padding: 0.7rem 5rem
+
 }
 
 hr{
@@ -225,7 +252,11 @@ hr{
 hr.short{
     width: 60px;
     border: solid 0.5px grey;
-    margin: 3rem 2rem
+    margin: 2rem 2rem;
+}
+
+i.fa-check{
+    color: blue;
 }
 
 article.team{
