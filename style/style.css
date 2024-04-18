@@ -63,6 +63,7 @@ section.links > ul{
 .right{
     position: fixed;
     right: 0;
+    top: 40px;
     margin-right: 200px;
     gap: 3rem;
 }
@@ -70,6 +71,7 @@ section.links > ul{
 .left{
     position: fixed;
     left: 50px;
+    top: 38px;
     margin-left: 100px;
     gap: 3rem;
 }
@@ -404,13 +406,28 @@ footer{
 
 
 
-footer div{
+/* footer div{
     flex-direction: column;
-}
+} */
 
 footer li{
     padding: .5rem;
     font-size: .8rem;
+}
+
+section.bar hr.short{
+    margin: 5rem 0 2rem 0.5rem;
+}
+
+section.lenguage{
+    color: grey;
+    align-items: baseline;
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+}
+
+section.lenguage *{
+    margin-right: 0.3rem;
 }
 
 
