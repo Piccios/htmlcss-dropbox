@@ -109,6 +109,7 @@ main{
 section.jumbotron div.column-small p{
     margin: 0 0 1.5rem 0;
 }
+
 section.jumbotron div.column-small button{
     margin: 0 0 1.5rem 0;
 }
@@ -146,10 +147,6 @@ div.cloumn-big{
     margin-top: 180px;
 }
 
-/* main *{
-    border: solid tomato 2px;
-} */
-
 main h2{
     font-size: 2.5rem;
     padding-bottom: 3rem ;
@@ -163,24 +160,18 @@ input{
     padding: 0.5rem 1rem;
     border: 1px solid lightgrey;
     border-radius: 4px;
+    cursor: pointer;
 }
 
-.input{
-    margin-right: 5rem;
-}
 .central{
     padding: 0 25rem;
     margin-top: 3rem;
 }
 
-/* input.input{
-    padding: 3rem;
-} */
 
 article.plan{
     border: solid grey 1px;
     width: calc(30% - 0.5rem);
-    height: 1100px;
     margin-top: 4rem;
 }
 
@@ -226,14 +217,7 @@ div.plan-info *{
 p.price{
     font-weight: bold;
     font-size: 0.8rem;
-    margin-bottom: 2.5rem;
-}
-
-div.features i{
-    padding-right: .5rem;
-}
-div.features p,h4{
-    padding: 1rem 2rem;
+    margin-bottom: 0;
 }
 
 p.grey{
@@ -241,14 +225,35 @@ p.grey{
     font-size: 0.8rem;
 }
 
+div.features div.flex{
+align-items: center;
+margin: 0.5rem 1.5rem;
+}
+
+div.features{
+    margin-bottom: 3rem;
+}
+
+div.features p{
+    margin-bottom: 1rem;
+}
+
+div.features i{
+    padding-right: .5rem;
+}
+
+div.features h4{
+    padding: 1rem 2rem;
+}
+
 .trial{
-    margin: 1.5rem 3rem 1rem 3rem;
-    padding: 0.7rem 2rem;
+    margin: 0.5rem 2rem 2rem 3rem;
+    padding: 0.7rem 1rem;
 }
 
 button.contact{
-    margin: 1.3rem 3rem 1rem 3rem;
-    padding: 0.7rem 5rem
+    margin: 0.7rem 3rem 2rem 3rem;
+    padding: 0.5rem 4rem;
 }
 
 hr{
@@ -324,7 +329,6 @@ section.partners{
     width: 100%;
 }
 
-
 div.box{
     border: solid tomato 2px;
     height: 450px;
@@ -333,7 +337,6 @@ div.box{
     max-width: 450px;
     background-color: #0061ff;
 }
-
 
 #box-1{
     background-color: #575e63;
@@ -401,14 +404,11 @@ footer{
     padding: 5rem 10rem;
     height: 450px;
     width: 100%;
-    justify-content:space-between;
 }
 
-
-
-/* footer div{
-    flex-direction: column;
-} */
+footer section.links{
+    justify-content:space-around;
+}
 
 footer li{
     padding: .5rem;
