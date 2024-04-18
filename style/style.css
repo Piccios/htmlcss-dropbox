@@ -469,14 +469,14 @@ footer li{
 }
 
 section.bar hr.short{
-    margin: 5rem 0 2rem 1rem;
+    margin: 5rem 0 2rem 5rem;
 }
 
 section.lenguage{
     color: grey;
     align-items: baseline;
     font-size: 0.8rem;
-    margin-left: 1rem;
+    margin-left: 5rem;
 }
 
 section.lenguage *{
