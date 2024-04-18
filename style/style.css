@@ -1,8 +1,16 @@
+/* ---- RESET ---- */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
+}
+
+/* ---- GENERAL SETTINGS ---- */
+body{
+    text-align: start;
+    min-width: 1350px;
+    height: auto;
 }
 
 ul > li{
@@ -17,11 +25,36 @@ li.title{
 a{
     color: blue;
 }
-body{
-    text-align: start;
-    min-width: 1350px;
-    height: auto;
+
+button{
+    padding: .5rem 1rem;
+    border: none;
+    border-color: none;
+    font-size: 0.9rem;
+    cursor: pointer;
 }
+
+img{
+    width: 100%;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+input{
+    padding: 0.5rem 1rem;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+/* ---- HEADER ---- */
 
 header{
 position: fixed;
@@ -41,18 +74,6 @@ color: #575e63;
 header a{
     text-decoration: none;
     color: #575e63;
-}
-
-img{
-    width: 100%;
-}
-
-.flex{
-    display: flex;
-}
-
-.flex-row{
-    flex-direction: row;
 }
 
 section.links > ul{
@@ -76,14 +97,6 @@ section.links > ul{
     gap: 3rem;
 }
 
-button{
-    padding: .5rem 1rem;
-    border: none;
-    border-color: none;
-    font-size: 0.9rem;
-    cursor: pointer;
-}
-
 header button{
     margin: 0;
 }
@@ -97,6 +110,8 @@ button.blue-button{
     background-color: #0061ff;
     color: white;
 }
+
+/* ---- MAIN ---- */
 
 main{
     margin-top: 100px;
@@ -156,12 +171,6 @@ section.business-plan{
     margin-top: 180px;
 }
 
-input{
-    padding: 0.5rem 1rem;
-    border: 1px solid lightgrey;
-    border-radius: 4px;
-    cursor: pointer;
-}
 
 .central{
     padding: 0 30rem;
@@ -436,7 +445,6 @@ section.try-it{
 section.try-it h2{
     color: #5e042d;
     font-size: 2rem;
-    /* padding: 2rem; */
 }
 
 
@@ -449,6 +457,8 @@ div.question{
 div.question h4{
     padding-left: 0;
 }
+
+/* ---- FOOTER ---- */
 
 footer{
     background-color: black;
